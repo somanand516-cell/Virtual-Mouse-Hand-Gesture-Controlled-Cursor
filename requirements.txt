@@ -1,0 +1,4 @@
+mediapipe>=0.10.14                                 # hand tracking (also installs opencv-contrib-python, numpy)
+screen-brightness-control>=0.20                    # brightness gesture (optional: app runs without it)
+Pillow>=10                                         # screenshot gesture
+pyautogui>=0.9.54; sys_platform != "win32"         # mouse/keyboard on macOS/Linux (Windows uses the Win32 API)

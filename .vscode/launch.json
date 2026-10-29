@@ -1,0 +1,22 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Gesture Mouse",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "gesture_mouse",
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    },
+    {
+      "name": "Gesture Mouse (dry run - mouse not moved)",
+      "type": "debugpy",
+      "request": "launch",
+      "module": "gesture_mouse",
+      "args": ["--dry-run", "--verbose"],
+      "cwd": "${workspaceFolder}",
+      "console": "integratedTerminal"
+    }
+  ]
+}
